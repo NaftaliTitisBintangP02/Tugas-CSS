@@ -1,0 +1,137 @@
+/* Style Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Container Utama */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+/* Deskripsi */
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #ecf0f1;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1c40f;
+    border-bottom: 3px solid #f1c40f;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Daftar */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    font-size: 17px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.list-item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Gambar */
+.image {
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Tabel */
+.table-container {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.table th {
+    background-color: rgba(241, 196, 15, 0.8);
+    color: #000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: italic;
+    color: #ecf0f1;
+}
+
+/* Tombol Ganti Background */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.change-bg {
+    background: #f1c40f;
+    color: #2c3e50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.change-bg:hover {
+    background: #e67e22;
+    color: #fff;
+}
